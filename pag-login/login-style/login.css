@@ -1,0 +1,132 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   width: 100%;
+   min-height: 100vh;
+   display: flexbox;
+   background-image: url(../login-img/plano-de-fundo-para-login.jfif);
+   background-size: cover;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   letter-spacing: 2px 
+}
+
+.login-content {
+   padding-left: 10px;
+   padding-right: 10px;
+   margin-top: 50px;
+}
+
+form {
+   width: 25%;
+   min-width: 300px;
+   margin: auto;
+   padding: 15px;
+   border: 2px solid #111010bc;
+   border-radius: 25px;
+   box-shadow: 2px 2px 49px 10px rgb(63, 58, 58);
+   background-color: rgba(39, 154, 172, 0.212) ;
+}
+
+ 
+/* Center the avatar image inside this container */
+.imglogin {
+   text-align: center;
+   margin: 24px 0 12px 0;
+}
+ 
+/* Avatar image */
+img.avatar-login {
+   width: 40%;
+   border-radius: 50%;
+}
+ 
+/* Full-width inputs */
+input[type=text], input[type=password] {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid rgb(13, 13, 13);
+   box-sizing: border-box;
+}
+ 
+/* Set a style for all buttons */
+.loginbtn {
+   padding: 10px 20px;
+   border: 1px solid black;
+   border-radius: 50px;
+   cursor: pointer;
+   font-size: 16px;
+   font-family: serif;
+   letter-spacing: 1px;
+   background-color: #04AA6D;
+   color: rgb(253, 253, 253);
+}
+ 
+/* Add a hover effect for buttons*/
+button:hover {
+   opacity: 0.8;
+   font-size: 16px;
+   color: black;
+}
+
+/* Add padding to containers */
+.container {
+   width: 100%;
+}
+
+.cancel-container {
+   padding-top: 15px;
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+}
+
+/* style for the cancel button */
+.cancelbtn {
+   width: 25%;
+   padding: 10px 10px;
+   background-color: #ec1717;
+   border-radius: 50px;
+   font-family: serif;
+   font-size: 16px;
+   color: white;
+}
+ 
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+   span.psw {
+     display: block;
+     float: none;
+   }
+   .cancelbtn {
+     width: 50%;
+     background-color: rgb(83, 68, 68);
+   }
+}
+
+.div-cadastro {
+   width: 50;
+   padding: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.cadastrarbtn {
+   padding: 4px 4px;
+   background-color: #1c1d1d;
+   border-radius: 50px;
+   font-family: serif;
+   font-size: 12px;
+   letter-spacing: 2px;
+   color: white;
+}
+
+.cadastrarbtn:hover {
+   font-size: 12px;
+   color: rgb(115, 255, 0);
+}
